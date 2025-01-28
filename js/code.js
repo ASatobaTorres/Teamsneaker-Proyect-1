@@ -1,3 +1,6 @@
 
+let Marca = [Adidas, Nike, Reebock, Puma, Asics ];
 
-<button type="boton" onclick = "document.getElementById('Marcas').innerHTML='Marquitas'"> Marcas </button>
+
+
+
