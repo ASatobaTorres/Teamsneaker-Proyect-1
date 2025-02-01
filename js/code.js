@@ -10,4 +10,4 @@ let valor = 18e4 + envio + " " + "CON ENVIO";
 
 let bigNumber = BigInt("Tambien puedes comprar muchos mas estilos en TEAMSNEAKERS27")
 
-console.log(valor);
+console.log(valor)
