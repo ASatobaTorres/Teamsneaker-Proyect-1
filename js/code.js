@@ -1,3 +1,11 @@
+const zapatillas = ["Nike", "Adidas", "Asics", "Puma", "Reebock", 
+                    "Spezial", "Caterpillar",  ]   
+
+
+
+// let bigNumber = BigInt("Tambien puedes comprar muchos mas estilos en TEAMSNEAKERS27")
+
+console.log(valor)
 import { zapatillas } from "./object";
 
 // let bigNumber = BigInt("Tambien puedes comprar muchos mas estilos en TEAMSNEAKERS27");
