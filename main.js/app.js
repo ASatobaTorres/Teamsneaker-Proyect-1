@@ -1,4 +1,4 @@
-export
+
 const zapatilla1 = ["Nike", "Adidas", "Asics", "Puma", "Reebock", 
     "Spezial", "Caterpillar"];
 
@@ -22,6 +22,17 @@ const zapatillas = {
             Precio:${this.price}, Envío:${this.send}, Tallas: ${this.size.min} - ${this.size.max}`)
     }
 };
+
+// const textShoes = Object.values(zapatillas);
+
+document.getElementById("demo").innerHTML= zapatillas.marca, "," , zapatillas.modelo, "," ,
+zapatillas.stock, "," , zapatillas.women, "," , zapatillas.price;
+// let textShoes = " ";
+// for (let x in textShoes) {
+//     textShoes += zapatillas[x]+"";
+// };
+
+// document.getElementById("demo").innerHTML = textShoes;
 
 zapatillas.mostrarInfo();
 console.log(zapatillas.shoes(37));
