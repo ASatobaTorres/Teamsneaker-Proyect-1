@@ -5,5 +5,11 @@ body {
 
 #desplegable {
     background-color: chocolate;
+};
 
+.imagen-superior-logo {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
 }
