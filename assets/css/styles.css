@@ -1,0 +1,20 @@
+
+body {
+    background-color: rgb(212, 0, 0);
+};
+
+#desplegable {
+    background-color: chocolate;
+};
+
+
+.container{
+    position: fixed;
+    text-align: center;
+    margin-top: 0px;
+    border-color: aqua;
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 30px; /* Bordes redondeados (opcional) */
+    margin-bottom: 40px; /* Espacio debajo de la imagen */
+}
