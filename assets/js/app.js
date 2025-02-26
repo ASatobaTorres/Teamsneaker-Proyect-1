@@ -1,7 +1,8 @@
-
+// creare una const, donde pueda reconocer las marcas, las cuales utilizara el cliente
 const zapatilla1 = ["Nike", "Adidas", "Asics", "Puma", "Reebock", 
     "Spezial", "Caterpillar"];
 
+    //creare un objeto con su respectiva clave-valor y un meotodo para utilzar lo que le clente quiere encontrar
 const zapatillas = { 
     marca   : "Adidas",
     modelo  : "Running",
@@ -17,32 +18,30 @@ const zapatillas = {
                 return "No esta disponible esta talla para dama"; 
             }  
     },
-    mostrarInfo : function () {
-        console.log(`Marca: ${this.marca}, Modelo: ${this.modelo}, Stock: ${this.stock},
-            Precio:${this.price}, Envío:${this.send}, Tallas: ${this.size.min} - ${this.size.max}`)
+        mostrarInfo : function () {
+            console.log(`Marca: ${this.marca}, Modelo: ${this.modelo}, Stock: ${this.stock},Precio:${this.price}, Envío:${this.send}, Tallas: ${this.size.min} - ${this.size.max}`)
     }
 };
 
 // const textShoes = Object.values(zapatillas);
 
+//mostrare el obejto zapatillas y sus clave valor
 document.getElementById("demo").innerHTML= zapatillas.marca, "," , zapatillas.modelo, "," ,
 zapatillas.stock, "," , zapatillas.women, "," , zapatillas.price;
+
 // let textShoes = " ";
 // for (let x in textShoes) {
 //     textShoes += zapatillas[x]+"";
 // };
-
 // document.getElementById("demo").innerHTML = textShoes;
 
-zapatillas.mostrarInfo();
-console.log(zapatillas.shoes(37));
-console.log(zapatillas.women, zapatillas.shoes(42));
 
-let shoes = zapatillas;
+// let shoes = zapatillas;
+// shoes.send = 17e3;
 
-shoes.send = 17e3;
+// alert(shoes.send);
 
-alert(shoes.send);
+//creare un catalogo, pero necesito ahorrar trabajo buscando la manera de automatizar cada interaccion del cliente.
 
 const Catalogo = [
     {marca: "Puma",     modelo: "Running", price: 175e3 ,  
@@ -62,14 +61,13 @@ const Catalogo = [
         
 ];
 
+//mostrar el catalogo.
 let revista = {
     Catalogo: function ( ) {
         return this.zapatilla1 + Catalogo + " " + this.zapatillas;
     }
 };
-
 let revistaCatlogo = revista.Catalogo();
-
 console.log(revistaCatlogo);
 
 
