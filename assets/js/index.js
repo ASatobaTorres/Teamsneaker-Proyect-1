@@ -1,8 +1,4 @@
-
-
-
-
-
+//
 const zapatillas = ["Nike", "Adidas", "Asics", "Puma", "Reebock", 
                     "Spezial", "Caterpillar",  ]   
 

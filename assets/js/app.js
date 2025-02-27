@@ -14,7 +14,7 @@ const zapatillas = {
             if (size >= this.size.min && size <= this.size.max ) {
                 return "CALZADO PARA DAMA";
             } else {
-                return "No esta disponible esta talla para dama"; 
+                return "No esta disponible esta talla para dama" ; 
             }  
     },
     mostrarInfo : function () {

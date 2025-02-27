@@ -5,63 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> TEAMSNEAKERS-27 </title>
 
-        <link  rel="stylesheet" src="./css/styles.css"></link>
+        <link  rel="stylesheet" href="./css/styles.cs
         <!-- <link rel="stylesheet" href="main.js/styles.css"> -->
         <link rel="icon" href="favicon.ico" type="image/x-icon"> 
 
 </head>
 
-<body style="background-color: rgb(60, 57, 57);">
-    <div class="container">
-        <img src="./images/LOGO TEAMSNEAKERS.png" width="32px" heigth="32px" alt="LogoIcon" class="imagen-superior-logo"> <!-- Imagen en la parte superior -->
-            <h1>BIENVENIDO A TEAMSNEAKERS27</h1>
-
-    </div>
-
-
-    <h1 style="color: rgb(235, 246, 32)";> <em>TEAMSNEAKERS 27</em> </h1>
-
-    <section id="desplegable" style="background-color: rgb(204, 166, 223); ">       
-        <div >  
-            <details open>
-                <summary> DESPLEGAME: </summary>
-                <h3>    
-                <button id="btninicio" class="btn inicio" type="button"> INICIO</button>
-                <h3 id="demo" type="button"> <button> MARCAS </button> </h3>
-                <button> DESCUENTOS </button>
-                <button> EXCLUSIVOS </button>
-                CONTACTO
-                UBICANOS
-                AJUSTES
-            </h3>
-            </details>
-        </div>
-    </section>
+<body style="background-color: rgb(60, 57, 57);">  
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 10px; background-color: rgb(34, 34, 34);">  
+        <img src="./images/LOGO TEAMSNEAKERS.png" width="80px" height="80px" alt="LogoIcon" class="imagen-superior-logo">  
+        <input type="text" placeholder="Buscar..." id="search" style="padding: 8px; width: 60%;">  
+        <button type="button" style="padding: 8px; background-color: rgb(235, 246, 32); border: none; cursor: pointer;">Buscar</button>  
+    </header>  
     
-    <section>
-        <article>
-            <div>
-                <h3>LO ULTIMO</h3>
-                <h3>MARCAS</h3>
-                <h3>CABALLERO</h3>
-                <h3>DAMA</h3>
-                <h3>NIÑOS</h3>
-            </div>
-        </article>
-    </section>
+<br>
+
+    <div style="display:flex;">                
+                <nav style="width: 200px; background-color: rgb(110, 19, 155); padding: 20px;">
+                    <details close>
+                        <summary style="cursor: pointer; color: aquamarine;" > DESPLEGAME: </summary>    
+                    
+                    <div>
+                        
+                        <button class="bnt"  id="btninicio" class="btn inicio" type="button"> INICIO</button>
+                        <button class="btnMarcas"> MARCAS </button> 
+                        <button class="btnDescuentos"> DESCUENTOS </button>
+                        <button class="bntExlusivos"> EXCLUSIVOS </button>
+                        <button class="bntContacto" > CONTACTO </button>
+                        <button class="bntUbicanos" > UBICANOS </button>
+                        <button class="bntAjustes" > AJUSTES </button>
+                        
+                    </div>
+            </details>
+        </nav> 
+        
+    <main style="flex-grow: 1;">
+        <<section>  
+            <div>  
+                <h1 style="padding: 1em;">BIENVENIDO A TEAMSNEAKERS27</h1>  
+                <h3>LO ULTIMO</h3>  
+                <h3>MARCAS</h3>  
+                <h3>CABALLERO</h3>  
+                <h3>DAMA</h3>  
+                <h3>NIÑOS</h3>  
+            </div>  
+        </section>
+    </main>
+</div>  
 
 
 </body> 
-
-<a href=""> Instagram</a>
-<footer link="">Instagram</footer>
-<footer link="">facebook</footer>
-<footer link="">whatsapp</footer>
-
+<br>
+<footer style="text-align: center; padding: 10px; background-color: 34,60,35; color: aquamarine;">  
+    <a href="">Instagram</a>  
+    <a href="">Facebook</a>  
+    <a href="">WhatsApp</a>  
+</footer>  
 
 <script type="module" src="/assets/js/app.js"></script>
 
 
 </html>
-
-
