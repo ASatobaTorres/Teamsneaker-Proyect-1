@@ -3,10 +3,15 @@ body {
     background-color: rgb(212, 0, 0);
 };
 
-#desplegable {
+.container {
     background-color: chocolate;
 };
 
+.btn {
+    border-color: 2px salmon;
+    color: aqua;
+    background-color: blue;
+}
 
 .container{
     position: fixed;
