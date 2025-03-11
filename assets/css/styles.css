@@ -1,16 +1,48 @@
 
-body {
-    background-color: rgb(212, 0, 0);
-};
 
-.container {
-    background-color: chocolate;
-};
+body {
+    background-color: rgba(50, 187, 23, 0.87);
+}
+
+.imgLogo {
+    width: 90px;
+    height: 80px;
+}
+
+#barraup {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px; 
+    background-color: rgb(34, 34, 34);
+}
+
+.Buttonsearch {
+    padding: 8px;
+    background-color: rgb(235, 246, 32);
+    border: none;
+    cursor: pointer;
+
+
+}
 
 .btn {
     border-color: 2px salmon;
     color: aqua;
     background-color: blue;
+}
+
+#buscarbarra {
+    padding: 20px; 
+    width: 60%;
+    font-style: normal;
+    text-align: center;
+}
+
+#desplegable {
+    width: 200px;
+    background-color: rgb(250, 2, 2);
+    padding: 20px;
 }
 
 .container{
