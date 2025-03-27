@@ -3,81 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> TEAMSNEAKERS-27 </title>
-
-        <link  rel="stylesheet" href="./css/styles.css">
-        <!-- <link rel="stylesheet" href="main.js/styles.css"> -->
-        <link rel="icon" href="favicon.ico" type="image/x-icon"> 
-
+    <title>Tienda de Zapatillas</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+<body>
 
-<body>  
-    <header id="barraup" >  
-        <img class="imgLogo" src="./images/LOGO TEAMSNEAKERS.png" alt="LogoIcon" >  
-        <input type="text" placeholder="Buscar..." id="buscarbarra">  
-        <button type="button" class="Buttonsearch">Buscar</button>  
-    </header>  
-    
-<br>
+    <!-- 🏠 Header y Navbar -->
+    <header>
+        <h1>Tienda Sneakers</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#cart">Carrito</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar zapatillas...">
+            <button>🔍</button>
+        </div>
+    </header>
 
-    <div style="display:flex;">                
-                <nav id="desplegable">
-                    <details open>
-                        <summary style="justify-content: last baseline; cursor: pointer; color: aquamarine;" > DESPLEGAME: </summary>    
-                    
-                    <div style="align-items: baseline;">
-                        
-                        <button class="btn" type="button"> INICIO</button>
-                        <button class="btnMarcas"> MARCAS </button> 
+    <!-- 🏠 Sección Principal -->
+    <section id="home">
+        <h2>Bienvenido a Sneakers Store</h2>
+        <p>Encuentra las mejores zapatillas deportivas al mejor precio.</p>
+        <button>Explorar ahora</button>
+    </section>
 
-                        <pre style="Color: chartreuse;">
-                            <ins>Nike</ins>
-                            <mark>Croydon</mark>
-                            <ins>Adidas</ins>
-                            <ins>Asics</ins>
-                            <ins>UnderArmour</ins>
-                            <ins>Puma</ins>
+    <!-- 👟 Sección de Productos -->
+    <section id="products">
+        <h2>Nuestros Productos</h2>
+        <div class="product">
+            <img src="images/zapatilla1.jpg" alt="Zapatilla 1">
+            <h3>Zapatilla Roja</h3>
+            <p>$79.99</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="product">
+            <img src="images/zapatilla2.jpg" alt="Zapatilla 2">
+            <h3>Zapatilla Negra</h3>
+            <p>$89.99</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="product">
+            <img src="images/zapatilla3.jpg" alt="Zapatilla 3">
+            <h3>Zapatilla Azul</h3>
+            <p>$99.99</p>
+            <button>Añadir al carrito</button>
+        </div>
+    </section>
 
-                        </pre>
-                        <button class="btnDescuentos"> DESCUENTOS </button>
-                        <button class="bntExlusivos"> EXCLUSIVOS </button>
-                        <button class="bntContacto" > CONTACTO </button>
-                        <button class="bntUbicanos" > UBICANOS </button>
-                        <button class="bntAjustes" > AJUSTES </button>
-                        
-                    </div>
-            </details>
-        </nav> 
-        
-    <main style="flex-grow: 1;">
-        <section>  
-            <div>  
-                <h1 style="padding: 1em;">BIENVENIDO A TEAMSNEAKERS27</h1>  
-                <h3>LO ULTIMO</h3>  
-                <h3>MARCAS</h3>  
-                <h3>CABALLERO</h3>  
-                <h3>DAMA</h3>  
-                <h3>NIÑOS</h3>  
-            </div>  
-        </section>
-    </main>
-</div>  
+    <!-- 🛒 Sección Carrito -->
+    <section id="cart">
+        <h2>Tu Carrito</h2>
+        <p>No hay productos en el carrito.</p>
+    </section>
 
+    <!-- 📞 Sección de Contacto -->
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <p>📧 Email: contacto@sneakers.com</p>
+        <p>📞 Teléfono: +57 320 123 4567</p>
+    </section>
 
-</body> 
+    <!-- ⚫ Footer -->
+    <footer>
+        <p>&copy; 2025 Sneakers Store. Todos los derechos reservados.</p>
+    </footer>
 
-<br>
-
-<footer style="text-align: center; padding: 10px; background-color: 34,60,35; color: aquamarine;">  
-
-    <a href="https://www.instagram.com/teamsneakers27?igsh=NnVnZnRwsmc1c3h4" target="_blank">Instagram</a>   
-    <a href="https://www.facebook.com/share/15ms4wu94d/" target="_blank">Facebook</a>  
-    <a href="https://www.WhatsApp.com/3178041412" title="Contactanos en Whatsapp" target="_blank">WhatsApp</a>  
-    <a href="mailto:storeurban2704@gamil.com"> <e-mail>storeurban2704@gamil.com</e-mail> </a>
-    <a href="default.asp">Temasnekaers27</a>
-</footer>  
-
-<script type="module" src="/assets/js/app.js"></script>
-
-
+</body>
 </html>
