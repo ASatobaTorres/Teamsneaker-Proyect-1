@@ -1,0 +1,82 @@
+/* Reset CSS avanzado basado en Normalize.css y Eric Meyer's Reset */
+
+/* Elimina márgenes, padding y establece box-sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Evita que las imágenes excedan el tamaño del contenedor */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Asegura que los elementos de lista no tengan estilos predeterminados */
+ul, ol {
+  list-style: none;
+}
+
+/* Elimina estilos predeterminados en enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Establece el tamaño de fuente base y mejora la legibilidad */
+html {
+  font-size: 16px; /* Puedes cambiarlo según el diseño */
+  scroll-behavior: smooth; /* Suaviza el desplazamiento */
+}
+
+/* Aplica un estilo base uniforme a todos los textos */
+body {
+  font-family: Arial, sans-serif; /* Usa una fuente genérica */
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Restablece los estilos de encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+/* Evita que los formularios tengan estilos predeterminados molestos */
+button, input, textarea, select {
+  font-family: inherit;
+  font-size: 100%;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Asegura que los botones sean clickeables correctamente */
+button {
+  cursor: pointer;
+}
+
+/* Evita estilos predeterminados en tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Quita el estilo predeterminado de las citas */
+blockquote, q {
+  quotes: none;
+}
+
+/* Evita la herencia de estilos en elementos de formulario */
+input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  appearance: none;
+}

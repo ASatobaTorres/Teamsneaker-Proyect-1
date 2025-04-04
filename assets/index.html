@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Zapatillas</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>TEAMSNEAKERS 27</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- 🏠 Header y Navbar -->
     <header>
-        <h1>Tienda Sneakers</h1>
-        <nav>
+        <h1>TIENDA TEAMSNEAKERS27</h1>
+        <nav id="navConcultas" >
+        <input type="checkbox"> Cambiame de color </input>
             <ul>
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#products">Productos</a></li>
@@ -20,21 +21,21 @@
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
-        <div class="search-bar">
+        <div class="search-bar"">
             <input type="text" placeholder="Buscar zapatillas...">
-            <button>🔍</button>
+            <button id="lupaBotton">🔍</button>
         </div>
     </header>
 
     <!-- 🏠 Sección Principal -->
-    <section id="home">
+    <section id="home" style="background-color: blueviolet;">
         <h2>Bienvenido a Sneakers Store</h2>
         <p>Encuentra las mejores zapatillas deportivas al mejor precio.</p>
         <button>Explorar ahora</button>
     </section>
 
     <!-- 👟 Sección de Productos -->
-    <section id="products">
+    <section id="products" style="background-color: violet;">
         <h2>Nuestros Productos</h2>
         <div class="product">
             <img src="images/zapatilla1.jpg" alt="Zapatilla 1">
@@ -57,20 +58,18 @@
     </section>
 
     <!-- 🛒 Sección Carrito -->
-    <section id="cart">
+    <section id="cart" style="background-color: tomato;">
         <h2>Tu Carrito</h2>
         <p>No hay productos en el carrito.</p>
     </section>
 
-    <!-- 📞 Sección de Contacto -->
-    <section id="contact">
-        <h2>Contáctanos</h2>
-        <p>📧 Email: contacto@sneakers.com</p>
-        <p>📞 Teléfono: +57 320 123 4567</p>
-    </section>
-
-    <!-- ⚫ Footer -->
     <footer>
+        <section id="contact" style="background-color: rgb(63, 3, 60);">
+            <h2>Contáctanos</h2>
+            <p>📧 Email: contacto@sneakers.com</p>
+            <p>📞 Teléfono: +57 320 123 4567</p>
+        </section>
+    
         <p>&copy; 2025 Sneakers Store. Todos los derechos reservados.</p>
     </footer>
 
